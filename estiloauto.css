@@ -1,13 +1,7 @@
-.integrantes{
-    background-color: blanchedalmond;
-    width: 300px;
-     text-align: center;
-}
-
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    background: url(FONDO.gif);
+    background: url(fondo1.gif);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -18,10 +12,10 @@ body{
 
 select{
     margin-bottom: 15px;
-    border: 2px solid orchid;
+    border: 2px solid navy;
     width: 94%;
-    color: dimgrey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     background: white;
     padding: 10px;
@@ -35,7 +29,7 @@ select{
 }
 
 .formulario{
-    background: deepskyblue;
+    background: cadetblue;
     margin-top: 120px;
     padding: 3px;
 }
@@ -48,18 +42,40 @@ h1{
 input[type="text"],
 input[type="number"],
 input[type="email"],
-input[type="password"]{
+input[type="password"]
+input[type="date"]
+{
     font-size: 20px;
     width: 94%;
     padding: 10px;
-    border: #00FFFF;
+    border: none;
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid navy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:black;
+    
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+
+.fondo{
+    font-size: 20px;
+    width: 94%;
+    padding: 10px;
+    border: none;
     background: #FFFFFF;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 2px solid orchid;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid navy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    color:black;
+    color: black;
 }
 
 .icon{
@@ -73,26 +89,20 @@ input[type="password"]{
     border: 1px solid #aaa;
 }
 
-.icon{
-    min-width: 50px;
-    text-align: center;
-    color: black;
-}
-
 .button{
     border: none;
     width: 100%;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    background: blueviolet;
+    background: navy;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .button:hover{
-    background: cadetblue;
+    background: darkslateblue;
 }
 p{
     text-decoration: none;
@@ -101,7 +111,7 @@ p{
 }
 
 .link:hover{
-    color: cadetblue;
+    color:darkslateblue;
 }
 
 @media(min-width:600px)

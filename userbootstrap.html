@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>Chc_Usuario</title>
+</head>
+<body background="fondo10.gif">
+    <div class="container-lg">
+        <div class="row justify-content-center">
+            <div class="col-md-6.5 login-form">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h2 class="card-title text-center p-3 mb-3 bg-info text-dark ">Formulario</h2>
+                        <form action="principal.html">
+                            <div class="form-group">
+                                <label for="id_usr">Código Usuario</label>
+                                <input class="form-control" id="código" type="text" maxlength="10" placeholder="Código">                            </div>
+                            <div>
+                                <label for="id_pais">País</label>
+                                <select name="Pais" class="form-control">
+                                    <option value="0">seleccione un país...</option>
+                                    <option value="1">Colombia</option>
+                                    <option value="2">Venezuela</option>
+                                    <option value="2">Ecuador</option>
+                                    <option value="2">Perú</option>
+                                    <option value="2">Chile</option>
+                                    <option value="2">Argentina</option>
+                                    <option value="2">Bolivia</option>
+                                    <option value="2">Uruguay</option>
+                                    <option value="2">Brasil</option>
+                                    <option value="2">Paraguay</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input class="form-control" type="text" maxlength="25" name="nombre" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="apellido">Apellido</label>
+                                <input class="form-control" type="text" maxlength="25" name="apellido" placeholder="Ingrese su apellido">
+                            </div>
+                            <div class="form-group">
+                                <label for="dirección">Dirección</label>
+                                <input class="form-control" type="text" maxlength="45" name="dirección" placeholder="Ingrese su dirección">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccusuario">ccusuario</label>
+                                <input class="form-control" type="text" maxlength="20" name="ccusuario" placeholder="Ingrese su ccusuario">
+                            </div>
+                            <div class="form-group">
+                                <label for="contraseña">Contraseña</label>
+                                <input class="form-control" type="password" name="ccpaswd" placeholder="Ingrese su contraseña">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="mail" name="email" placeholder="Ingrese su email">
+                            </div>
+                            <div class="form-group">
+                                <label for="teléfono">Teléfono</label>
+                                <input class="form-control" type="text" maxlength="20" name="teléfono" placeholder="Ingrese su teléfono">
+                            </div>
+                            <br>
+                            <center><button type="button" class="btn btn-info">Registrarse</button></center>
+                            <br>
+                                <p>Al registrarse acepta las condiciones de uso y política de privacidad</p>
+                            </div>
+                            </div>
+                        </div>
+                </div>            
+        </div>
+    </div>
+    </form>
+    </body>
+</html>

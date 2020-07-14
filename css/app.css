@@ -1,0 +1,52 @@
+body{
+    background-image: url(img/img.jpg);
+     background-repeat:repeat;
+}
+.letrahj{
+    padding: 30px;
+    margin: 0px 230px;
+}
+.margen{
+    background-image: url(img/fondo8.jpg);
+    opacity: 0.8;
+}
+label{
+    font-size: medium;
+}
+.posicion{
+    margin-left: 100px;
+}
+.position{
+    margin: -84px 400px;
+}
+.pos{
+    margin: -300px 400px;
+}
+.pos1{
+    margin: -200px 400px;
+}
+.pos2{
+    margin: -100px 400px;
+}
+.letra,p{
+    background-color: thistle;
+    margin: 0px 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.m1{
+    margin: 0 330px;
+}
+.m2{
+    margin: -0px 620px;
+    font-size: large;
+}
+.le{
+    color: wheat;
+    margin: 0px 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ubica{
+margin: 0px 220px;
+}
